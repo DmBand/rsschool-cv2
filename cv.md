@@ -11,14 +11,14 @@
 ***
 
 ## Education
-1. **2010-2014:** Grodno State Polytechnic College. Specialty: Highways. Construction technician
-2. **2014-2020:** Belarusian National Technical University. Specialty: Highways. Construction engineer
+* **2010-2014:** Grodno State Polytechnic College. Specialty: Highways. Construction technician
+* **2014-2020:** Belarusian National Technical University. Specialty: Highways. Construction engineer
 ***
 
 ## Work experience
-1. **2014-2018:** Grodno, Road Operations Department No. 51, *Production Planning Engineer*
-2. **2018-2020:** Grodno, Welmares Premium LLC, *manager*
-3. **from 2020 to the present:** Grodno, Sogrei-M, *salesman*
+* **2014-2018:** Grodno, Road Operations Department No. 51, *Production Planning Engineer*
+* **2018-2020:** Grodno, Welmares Premium LLC, *manager*
+* **from 2020 to the present:** Grodno, Sogrei-M, *salesman*
 ***
 
 ## Skills
