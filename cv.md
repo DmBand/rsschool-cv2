@@ -3,21 +3,24 @@
 #### _Date of birth:_ 25th June 1995
 #### _Address:_ Grodno, Belarus
 ***
+
 ## Contacts
 * Email: *d.bandysik@gmail.com*
 * Discord: *DmBand*
 * Instagram: *dima.bandysik*
 ***
+
 ## Education
 1. **2010-2014:** Grodno State Polytechnic College. Specialty: Highways. Construction technician
 2. **2014-2020:** Belarusian National Technical University. Specialty: Highways. Construction engineer
 ***
+
 ## Work experience
 1. **2014-2018:** Grodno, Road Operations Department No. 51, *Production Planning Engineer*
 2. **2018-2020:** Grodno, Welmares Premium LLC, *manager*
 3. **from 2020 to the present:** Grodno, Sogrei-M, *salesman*
-
 ***
+
 ## Skills
 I'm learning Python programming lenguage. At the moment I'm writing my first small project in Django to automate one process in my current work.
 
@@ -43,6 +46,7 @@ while True:
         print('Моё число больше...')
 ```
 ***
+
 ## Level of english
 Elementary (A2). Studying on my own
 ***
