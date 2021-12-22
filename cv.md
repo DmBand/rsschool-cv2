@@ -2,23 +2,27 @@
 # Dmitry Bandysik 
 #### _Date of birth:_ 25th June 1995
 #### _Address:_ Grodno, Belarus
+
 ***
 
 ## Contacts
 * Email: *d.bandysik@gmail.com*
 * Discord: *DmBand*
 * Instagram: *dima.bandysik*
+
 ***
 
 ## Education
 * **2010-2014:** Grodno State Polytechnic College. Specialty: Highways. Construction technician
 * **2014-2020:** Belarusian National Technical University. Specialty: Highways. Construction engineer
+
 ***
 
 ## Work experience
 * **2014-2018:** Grodno, Road Operations Department No. 51, *Production Planning Engineer*
 * **2018-2020:** Grodno, Welmares Premium LLC, *manager*
 * **from 2020 to the present:** Grodno, Sogrei-M, *salesman*
+
 ***
 
 ## Skills
@@ -45,10 +49,12 @@ while True:
     elif answer < some_mum:
         print('Моё число больше...')
 ```
+
 ***
 
 ## Level of english
 Elementary (A2). Studying on my own
+
 ***
 
 ## About me
