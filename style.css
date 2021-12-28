@@ -13,18 +13,14 @@
     src: url('./assets/fonts/Roboto-Bold.ttf');
 }
 
-
-
 * {
     box-sizing: border-box;
 }
 
-
 .header {
     margin: 5px 15px 0px;
-    background-color: #0F423F;
+    background-color: #360a30c9;
 }
-
 
 .nav-link {
     padding: 0px 10px;
@@ -34,13 +30,13 @@
     font-size: 23px;
     line-height: 50px;
     transition: 0.5s;
+    text-shadow: 5px -5px 3px transparent;
 }
-
 
 .nav-link:hover {
-    color: #0ccfe9;
+    color: #3eddadd7;
+    text-shadow: 5px -5px 10px black;
 }
-
 
 .nav-list {
     display: flex;
@@ -53,14 +49,10 @@
     
 }
 
-
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
-
-
 
 .main-container {
     display: flex;
@@ -71,8 +63,10 @@
 
 .section {
     width: 50%;
-    padding: 10px;
-    border: 1px solid orangered;
+    padding: 0px 10px 10px;
+    background-color: #f8f8f8;
+    font-family: RobotoNormal;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -82,19 +76,55 @@
 }
 
 .section-profile {
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     width: 100%;
     padding: 50px 20px 30px;
     text-align: center;
+    background-color: #f8f8f8;
 }
+
 .profile-image {
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    object-fit: cover;
+    object-fit: cover; /*Чтобы фото не искажалось*/
+    box-shadow: 2px -2px 50px 5px  #360a30c9;
 }
+
+.location {
+    margin: 0px 0px 15px;
+    font-family: RobatoNormal;
+    font-size: 40px;
+    color: #0b312f;
+}
+
+@media (max-width: 400px) {
+    .location {
+        font-size: 20px;
+    }
+}
+
+.age {
+    margin: 0px 0px 15px;
+    font-size: 22px;
+    color: #0b312f;
+}
+
+.contacts-list {
+    color: #0b312f;
+    font-size: 18px;
+}
+
+.email-link {
+    text-decoration: none;
+    color: #360a30c9;
+}
+
+
+
+
 
 
 
@@ -109,15 +139,31 @@
 }
 
 
+
+
+
+
+
+
+
+
 h1 {
-    font: 45px RobotoBoldItalic;
+    margin: 15px 0px;
+    font: 45px RobotoNormal;
+    font-weight: bold;
+    color: #360a30c9;
+    letter-spacing: 13px; /*Расстояние между буквами*/
 }
 
+h2 {
+    font-family: RobotoBold;
+    color: #663003;
+    letter-spacing: 3px;
+}
 
 html {
     scroll-behavior: smooth; /*плавная прокрутка при переходе на якорную ссылку*/
 }
-
 
 body {
     min-height: 100vh;
@@ -126,5 +172,5 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #F8F4CC;
+    background-color: #ede7f5;
 }
