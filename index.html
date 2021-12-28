@@ -5,11 +5,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dmitry Bandysik CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/ico.ico">
+    <title>Dmitriy Bandysik</title>
 </head>
 
 <body>
-    <!-- Здесь в дальнейшем будет моя вёрстка -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#work-experience">Work experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#english">English</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main main-container">
+        <section class="section-profile" id="profile">
+            <img class="profile-image" src="./assets/img/foto.png" alt="foto" title="foto">
+            <div>
+                <h1>Dmitriy Bandysik</h1>
+                <p>Grodno, Belarus</p>
+                <p>26 yers old</p>
+                <h3>RS School Student</h3>
+            </div>
+        </section>
+
+        <section class="section" id="contacts">
+            <h2>CONTACTS</h2>
+            <ul>
+                <li>Email: d.bandysik@gmail.com</li>
+                <li>Discord: DmBand</li>
+                <li>Instagram: dima.bandysik</li>
+            </ul>
+        </section>
+
+        <section class="section" id="education">
+            <h2>EDUCATION</h2>
+            <ul>
+                <li>2010-2014: Grodno State Polytechnic College. Specialty: Highways. Construction technician</li>
+                <li>2014-2020: Belarusian National Technical University. Specialty: Highways. Construction engineer
+                </li>
+            </ul>
+        </section>
+
+        <section class="section" id="work-experience">
+            <h2>WORK EXPERIENCE</h2>
+            <ul>
+                <li>2014-2018: Grodno, Road Operations Department No. 51, Production Planning Engineer</li>
+                <li>2018-2020: Grodno, Welmares Premium LLC, manager</li>
+                <li>from 2020 to the present: Grodno, Sogrei-M, salesman</li>
+            </ul>
+        </section>
+
+        <section class="section" id="skills">
+            <h2>SKILLS</h2>
+            <p>I'm learning Python programming lenguage. At the moment I'm writing my first small project in Django
+                to automate one process in my current work.</p>
+        </section>
+
+        <section class="section" id="code">
+            <h2>CODE</h2>
+            <p>Python code example:</p>
+            <code>
+                    <pre>
+# Simple Game
+import random
+
+some_mum = random.randint(1, 100)
+attempt = 0
+
+print('Я загадал число от 1 до 100. Сможете его отгадать?')
+
+while True:
+    attempt += 1
+    answer = int(input('Ваш вариант? '))
+    if answer == some_mum:
+        print(f'Всё верно, это число {some_mum}!'/
+        'Количество попыток: {attempt}')
+        break
+    elif answer > some_mum:
+        print('Моё число меньше...')
+    elif answer < some_mum:
+        print('Моё число больше...')
+                    </pre>
+                </code>
+        </section>
+
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <a class="nav-link" href="https://DmBand.github.io/rsschool-cv/">My first CV</a>
+        </section>
+
+        <section class="section" id="english">
+            <h2>ENGLISH</h2>
+            <p>Elementary (A2). Studying on my own</p>
+        </section>
+
+        <section class="section" id="summary">
+            <h2>SUMMARY</h2>
+            <p>I really want to get a job as a web developer.</p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>2021</p>
+            <a class="nav-link" href="https://github.com/DmBand">github</a>
+            <a href="https://rs.school/js-stage0/"><img class="logo" src="./assets/img/logo.jpg" alt=""></a>
+        </div>
+    </footer>
 </body>
 
 </html>
