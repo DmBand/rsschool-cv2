@@ -1,17 +1,58 @@
 @font-face {
-    font-family: Roboto-normal;
+    font-family: RobotoNormal;
     src: url('./assets/fonts/Roboto-Light.ttf');
 }
 
 @font-face {
-    font-family: RobotoBoldItalic;
-    src: url('./assets/fonts/Roboto-BoldItalic.ttf');
+    font-family: RobotoNormalItalic;
+    src: url('./assets/fonts/Roboto-LightItalic.ttf');
 }
+
+@font-face {
+    font-family: RobotoBold;
+    src: url('./assets/fonts/Roboto-Bold.ttf');
+}
+
 
 
 * {
     box-sizing: border-box;
 }
+
+
+.header {
+    margin: 5px 15px 0px;
+    background-color: #0F423F;
+}
+
+
+.nav-link {
+    padding: 0px 10px;
+    text-decoration: none; /*Убираем подчеркивание ссылок*/
+    color: white;
+    font-family: RobotoBold, sans-serif;
+    font-size: 23px;
+    line-height: 50px;
+    transition: 0.5s;
+}
+
+
+.nav-link:hover {
+    color: #0ccfe9;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    list-style: none; /*Убрали маркер списка*/
+    
+}
+
 
 
 .container {
@@ -20,37 +61,17 @@
 }
 
 
-.nav-list {
-    list-style: none; /*Убрали маркер списка*/
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    
-}
-
-
-.nav-link {
-    color: black;
-    padding: 0 20px;
-    line-height: 50px;
-    text-decoration: none; /*Убираем подчеркивание ссылок*/
-    transition: 0.5s;
-}
-
-
-.nav-link:hover {
-    color: red;
-}
-
 
 .main-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 0px 15px;
 }
 
 .section {
     width: 50%;
+    padding: 10px;
     border: 1px solid orangered;
 }
 
@@ -69,20 +90,23 @@
     text-align: center;
 }
 .profile-image {
-    width: 126px;
-    height: 126px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
 }
 
 
 
 
-
-
-
-/*.logo {
-    width: 50px;
-    height: 50px;
-}*/
+.footer {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 0px 15px 5px;
+}
 
 
 h1 {
@@ -102,4 +126,5 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #F8F4CC;
 }
