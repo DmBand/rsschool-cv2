@@ -67,6 +67,7 @@
     background-color: #f8f8f8;
     font-family: RobotoNormal;
     font-weight: 600;
+    font-size: 18px;
 }
 
 @media (max-width: 768px) {
@@ -114,23 +115,28 @@
 
 .contacts-list {
     color: #0b312f;
-    font-size: 18px;
+    
 }
 
-.email-link {
+.contact-links {
     text-decoration: none;
     color: #360a30c9;
 }
 
-
-
-
-
-
-
+.projects-link {
+    padding: 0px 10px;
+    text-decoration: none; /*Убираем подчеркивание ссылок*/
+    color: white;
+    font-family: RobotoBold, sans-serif;
+    font-size: 23px;
+    line-height: 50px;
+    transition: 0.5s;
+    text-shadow: 5px -5px 3px transparent;
+}
 
 .footer {
-    border: 1px solid red;
+    background-color: #360a30c9;
+    background-color: ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -138,14 +144,23 @@
     margin: 0px 15px 5px;
 }
 
+.nav-link-footer {
+    padding: 0px 10px;
+    text-decoration: none; /*Убираем подчеркивание ссылок*/
+    color: white;
+    font-family: RobotoBold, sans-serif;
+    font-size: 23px;
+    line-height: 50px;
+    transition: 0.5s;
+    text-shadow: 5px -5px 3px transparent;
+}
 
-
-
-
-
-
-
-
+.rss {
+    width: 130px;
+    height: 45px;
+    background-image: url("./assets/img/rs_school_js.svg");
+    background-repeat: no-repeat;
+}
 
 h1 {
     margin: 15px 0px;
