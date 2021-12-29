@@ -1,4 +1,4 @@
-![Фото](images/image.jpg "Фото")
+![Фото](assets/img/image.jpg "Фото")
 # Dmitry Bandysik 
 #### _Date of birth:_ 25th June 1995
 #### _Address:_ Grodno, Belarus
