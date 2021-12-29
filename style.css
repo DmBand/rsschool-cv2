@@ -1,0 +1,190 @@
+@font-face {
+    font-family: RobotoNormal;
+    src: url('./assets/fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: RobotoNormalItalic;
+    src: url('./assets/fonts/Roboto-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url('./assets/fonts/Roboto-Bold.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    margin: 5px 15px 0px;
+    background-color: #360a30c9;
+}
+
+.nav-link {
+    padding: 0px 10px;
+    text-decoration: none; /*Убираем подчеркивание ссылок*/
+    color: white;
+    font-family: RobotoBold, sans-serif;
+    font-size: 23px;
+    line-height: 50px;
+    transition: 0.5s;
+    text-shadow: 5px -5px 3px transparent;
+}
+
+.nav-link:hover {
+    color: #3eddadd7;
+    text-shadow: 5px -5px 10px black;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    list-style: none; /*Убрали маркер списка*/
+    
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+}
+
+.section {
+    width: 50%;
+    padding: 0px 10px 10px;
+    background-color: #f8f8f8;
+    font-family: RobotoNormal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 20px 30px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover; /*Чтобы фото не искажалось*/
+    box-shadow: 2px -2px 50px 5px  #360a30c9;
+}
+
+.location {
+    margin: 0px 0px 15px;
+    font-family: RobatoNormal;
+    font-size: 40px;
+    color: #0b312f;
+}
+
+@media (max-width: 400px) {
+    .location {
+        font-size: 20px;
+    }
+}
+
+.age {
+    margin: 0px 0px 15px;
+    font-size: 22px;
+    color: #0b312f;
+}
+
+.contacts-list {
+    color: #0b312f;
+    
+}
+
+.contact-links {
+    text-decoration: none;
+    color: #360a30c9;
+}
+
+.projects-link {
+    padding: 0px 10px;
+    text-decoration: none; /*Убираем подчеркивание ссылок*/
+    color: white;
+    font-family: RobotoBold, sans-serif;
+    font-size: 23px;
+    line-height: 50px;
+    transition: 0.5s;
+    text-shadow: 5px -5px 3px transparent;
+}
+
+.footer {
+    background-color: #360a30c9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 0px 15px 5px;
+}
+
+.nav-link-footer {
+    padding: 0px 10px;
+    text-decoration: none; /*Убираем подчеркивание ссылок*/
+    color: white;
+    font-family: RobotoBold, sans-serif;
+    font-size: 23px;
+    line-height: 50px;
+    transition: 0.5s;
+    text-shadow: 5px -5px 3px transparent;
+}
+
+.rss {
+    width: 130px;
+    height: 45px;
+    background-image: url("./assets/img/rs_school_js.svg");
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 15px 0px;
+    font: 45px RobotoNormal;
+    font-weight: bold;
+    color: #360a30c9;
+    letter-spacing: 13px; /*Расстояние между буквами*/
+}
+
+h2 {
+    font-family: RobotoBold;
+    color: #663003;
+    letter-spacing: 3px;
+}
+
+html {
+    scroll-behavior: smooth; /*плавная прокрутка при переходе на якорную ссылку*/
+}
+
+body {
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ede7f5;
+}
